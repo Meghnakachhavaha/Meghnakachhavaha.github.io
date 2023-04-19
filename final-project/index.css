@@ -1,0 +1,503 @@
+
+@media only screen and (min-width: 760px) {
+    body {
+      width: 1200px;
+      position: relative;
+      left: 50%;
+      transform: translate(-50%);
+    }
+}
+
+.mainNav{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    background-color: #222;
+    color: #fff;
+}
+.logoTag{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgHolder{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logoImgTag{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+
+.navButtons{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.navButtonsList{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.navButtonItem{
+    width: 20%;
+    height: 40px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.mainLink{
+    background-color: #c78c06;
+}
+
+
+.navSearchArea{
+    width: 30%;
+    height: 100%;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchTextHolder{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    color: #fff;
+    width: 80%;
+    height: 30%;
+    border-radius: 5px;
+    border: 1px solid #c78c06;
+}
+.navSearchTxt{
+    outline: none;
+    border: 0px solid #c78c06;
+    font-size: 100%;
+}
+.submitBut{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+@media only screen and (max-width: 760px) {
+
+    .mainNav{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        background-color: #222;
+        color: #fff;
+    }
+    .logoTag{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #c78c06;
+    }
+    .imgHolder{
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+
+    .navButtons{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+    .navButtonsList{
+        flex-direction: column;
+    }
+    .navButtonItem{
+        width: 100%;
+    }
+    .navSearchArea{
+        width: 100%;
+        height: 50px;
+    }
+    .searchTextHolder{
+        height: 90%;
+    }
+}
+
+
+.introSect{
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+.backImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.introDetails{
+    width: 80%;
+    height: 80%;
+    background-color: rgba(34, 34, 34, 0.555);
+    position:absolute;
+    top: 10%;
+    left: 10%;
+    color: #fff;
+    padding: 3px;
+}
+.introDetails h1{
+    font-size: 90px;
+    margin: 0px;
+}
+.introDetails p{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.introDetails button{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    background-color: #c78c06;
+    color: #222;
+    outline: none;
+    border: 0px solid #c78c06;
+    cursor: pointer;
+}
+.introDetails button i {
+    margin-left: 2px;
+}
+
+@media only screen and (max-width: 760px) {
+    .introDetails{
+        width: 100%;
+        height: 60%;
+        top: 20%;
+        left: 0px;
+    }
+    .introDetails h1{
+        font-size: 60px;
+    }
+}
+
+.aboutUs{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background-color: #ffe6ac;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutUsContainer{
+    width: 80%;
+    height: 96%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.aboutImg{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.aboutUsInfo{
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 760px) {
+    .aboutUsInfo{
+        margin-left: 0px;
+    }
+    .aboutUs{
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    .aboutUsContainer{
+        width: 95%;
+        height: auto;
+        margin-top: 2.5%;
+        grid-template-columns: 100%;
+    }
+}
+
+
+.services{
+    width: 100%;
+    height: auto;
+}
+.servicesSect{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.serviceContainer{
+    width: 49%;
+    height: auto;
+    overflow: hidden;
+    background-color: #ffe6ac;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-right: 1%;
+    margin-bottom: 5px;
+}
+.serviceContainer2{
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    background-color: #ffe6ac;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-left: 2%;
+    margin-bottom: 5px;
+}
+.serviceImg{
+    width: 100%;
+}
+.serviceContainer button, .serviceContainer2 button{
+    width: 100%;
+    height: 50px;
+    background-color: #222;
+    color: #fff;
+    font-size: 100%;
+    outline: none;
+    border: 0px solid #c78c06;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 760px) {
+    .serviceContainer{
+        width: 100%;
+    }
+    .serviceContainer2{
+        width: 100%;
+    }
+}
+
+
+.ourVision{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.bgImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.topInfoDiv{
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    color: #fff;
+}
+.moreOnVisions{
+    background-color: rgba(34, 34, 34, 0.884);
+    border: 1px solid #c78c06;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.moreOnVisions i{
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 760px) {
+    .topInfoDiv{
+        width: 90%;
+        left: 5%;
+    }
+}
+
+
+.outTeam{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.teamMemberContainer{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #ffe6ac;
+
+}
+.teamMemberContainer2{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    background-color: #ffe6ac;
+}
+.teamMemberImg{
+    width: 50%;
+    height: auto;
+}
+.teamMemberInfo{
+    width: 49%;
+    height: auto;
+    margin-left: 1%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.teamMemberTitle{
+    border-bottom: 1px solid #c78c06;
+}
+
+@media only screen and (max-width: 760px) {
+    .teamMemberContainer2{
+        flex-direction: row;
+    }
+    .teamMemberImg{
+        width: 100%;
+    }
+    .teamMemberInfo{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+
+.contactUs{
+    width: 100%;
+    height: auto;
+}
+.contactUsContainers{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.msgContainer{
+    width: 50%;
+    height: auto;
+    padding: 3px;
+    box-sizing: border-box;
+}
+.msgInput{
+    width: 95%;
+    height: 45px;
+}
+.msgTxtArea{
+    width: 95%;
+}
+.msgContainer button{
+    width: 100px;
+    height: 40px;
+    background-color: #222;
+    color: #fff;
+    outline: none;
+    border: 0px solid #c78c06;
+    cursor: pointer;
+    color: #c78c06;
+}
+.locationContainer{
+    width: 50%;
+    height: auto;
+    padding: 3px;
+    box-sizing: border-box;
+}
+.operationsHours{
+    width: 100%;
+    height: auto;
+}
+.operationsHours table{
+    width: 100%;
+    height: auto;
+}
+.operationsHeadersRow{
+    width: 100%;
+    background-color: #ffe6ac;
+    height: 45px;
+}
+.operationsHeader{
+    border: 1px solid #222;
+    text-align: center;
+}
+.operationsDaysRow{
+    width: 100%;
+    height: 45px;
+}
+.operationsDays{
+    border: 1px solid #222;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 760px) {
+    .msgContainer{
+        width: 100%;
+    }
+    .locationContainer{
+        width: 100%;
+    }
+}
+
+.copyrightDiv{
+    width: 100%;
+    height: 150px;
+    background-color: #222;
+    color: #c78c06;
+    margin-top: 5px;
+}
+.copyrightTxt{
+    width: 80%;
+    height: 45%;
+    position: relative;
+    left: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.imgsCopyright{
+    width: 80%;
+    height: 45%;
+    position: relative;
+    left: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.imgsCopyright a{
+    color: #c78c06;
+}
+
+#map {
+    height: 400px; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+}
